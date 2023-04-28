@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+div .field-icon {
+  margin-top: 5px;
+}
+
+.container {
+  padding: 2px 5px;
+  display: inline-block;
+  border: 1px solid green;
+  background-color: white;
+  box-shadow: 4px 1px #3aabec;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +44,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
